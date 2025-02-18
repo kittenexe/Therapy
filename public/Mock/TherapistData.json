@@ -1,0 +1,16 @@
+{
+    "name": "Monique Landrum",
+    "bio": "An experienced therapist for over 8 years, monique landrum is offering her services in child behavioral therapy.",
+    "specialization": "Anxiety, ADD, ADHD, Depression, Executive Disfunction",
+    "profilePic": "./assets/therapyProfilePic.png",
+    "otherSocialLinks": {
+        "linkedIn": "",
+        "phone": "223-348-49857"
+    },
+    "appointmentSchedule": [
+        "2024-09-04 10:00 AM",
+        "2024-09-30 2:00 PM",
+        "2024-10-03 11:00 AM"
+    ]
+}
+
