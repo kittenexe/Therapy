@@ -6,7 +6,7 @@ import titan from  '../assets/TitanSlain.PNG';
 function PictureRender(){
     return(
         <div>
-            <img src={therapist} alt= "" width= "800px" />
+            <img src={therapist} alt= "" width= "400px" />
         </div>
     );
 }
