@@ -27,7 +27,7 @@ function ScheduleAppointment({availableTimes}){
                             </option>
                         ))}                   
                 </select>
-                <butto type="submit">Book Appointment</butto>
+                <button type="submit">Book Appointment</button>
             </form>
             {confirmation && <p>confirmation</p>} 
         </div>

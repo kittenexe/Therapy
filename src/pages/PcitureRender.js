@@ -1,4 +1,4 @@
-import comission from '../assets/Commission_by_Vibrantes.png';
+import therapist from '../assets/TherapistPhotoTemp.jpg';
 import poke from '../assets/poke2.png';
 import titan from  '../assets/TitanSlain.PNG';
 
@@ -6,7 +6,7 @@ import titan from  '../assets/TitanSlain.PNG';
 function PictureRender(){
     return(
         <div>
-            <img src={titan} alt= "" width= "800px" />
+            <img src={therapist} alt= "" width= "800px" />
         </div>
     );
 }
@@ -14,7 +14,7 @@ function PictureRender(){
 //render an array of images (placeholder for client images)
 function MultiPic(){
     const imgData = [
-        comission,
+        therapist,
         poke,
         titan
     ];
@@ -38,15 +38,15 @@ function LazyPicLoad(){
     const imgData= [
         {
             id: '1',
-            pic: comission
+            pic: therapist
         },
         {
             id: '2',
-            pic: comission
+            pic: therapist
         },
         {
             id: '3',
-            pic: comission
+            pic: therapist
         }
     ];
 

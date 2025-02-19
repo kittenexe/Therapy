@@ -4,11 +4,11 @@ function ButtonLS(){
     const [incr, setIncr] = useState(0);
 
     useEffect(() =>{
-        console.log("increased by ", incr);
+        console.log("paitients increased by ", incr);
     },[incr])
 
     return(
-        <button onClick={() => setIncr(incr+1)}> Because im the MOON {incr}</button>
+        <button onClick={() => setIncr(incr+1)}> Number of Patients {incr}</button>
     );
 }
 
