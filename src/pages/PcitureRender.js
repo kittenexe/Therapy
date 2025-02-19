@@ -50,7 +50,7 @@ function LazyPicLoad(){
 
     const imgs = imgData.map((x, key) =>(
         <div key={`lazyImage-${x.id}`}>
-            <img loading='lazy' src={x.pic} alt={key} width='700px' height='500px'/>
+            <img loading='lazy' src={x.pic} alt={key} width='400px' height='300px'/>
         </div> 
     ));
 
