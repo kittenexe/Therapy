@@ -17,9 +17,9 @@ function TherapistDataFtech(){
         }).then((data) =>{
             setTherapist(data);
             setLoading(false);
-            console.log('Fetched: ', data); //check data, not therapist because thrapist has not been fully initalized yet
+            //console.log('Fetched: ', data); //check data, not therapist because thrapist has not been fully initalized yet
         }).catch((error) => {
-            setError(" " + error.message);
+            setError("Error " + error.message);
             setLoading(false);
         });      
     },[])
