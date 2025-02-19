@@ -25,8 +25,6 @@ function MultiPic(){
         )
     );
 
-    //console.log(imgDataArray);
-
     return(
         <ul>{imgDataArray}</ul>
     );
