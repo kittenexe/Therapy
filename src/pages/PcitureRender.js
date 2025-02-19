@@ -2,7 +2,7 @@ import therapist from '../assets/TherapistPhotoTemp.jpg';
 import poke from '../assets/poke2.png';
 import titan from  '../assets/TitanSlain.PNG';
 
-// Code me something that renders an image
+// Something that renders an image
 function PictureRender(){
     return(
         <div>
