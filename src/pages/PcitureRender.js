@@ -54,8 +54,6 @@ function LazyPicLoad(){
         </div> 
     ));
 
-    //console.log(imgData);
-
     return(
         <div>{imgs}</div>
     );
