@@ -1,6 +1,6 @@
 import './App.css';
 import PictureRender from './pages/PcitureRender';
-import {MultiPic, LazyPicLoad} from './pages/PcitureRender';
+import {LazyPicLoad} from './pages/PcitureRender';
 import ButtonLS from './pages/Button';
 import TherapistDataFtech from './pages/FetchTherapyData';
 
